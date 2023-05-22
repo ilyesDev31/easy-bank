@@ -68,7 +68,6 @@ transform: rotate(45deg);
 .section-one{
     position: relative;
     height: calc(100vh - 73px);
-    overflow-x: hidden;
     svg.mobile{
         display: none;
     }
@@ -273,6 +272,7 @@ footer{
         }
     }
   .section-one{
+    overflow-x: hidden !important;
     height: fit-content;
     .desktop{
         display: none;

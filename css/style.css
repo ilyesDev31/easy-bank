@@ -149,7 +149,6 @@ header .burger.active div:last-child {
 .section-one {
   position: relative;
   height: calc(100vh - 73px);
-  overflow-x: hidden;
 }
 .section-one svg.mobile {
   display: none;
@@ -336,6 +335,7 @@ footer .grid .social {
     display: none;
   }
   .section-one {
+    overflow-x: hidden !important;
     height: -moz-fit-content;
     height: fit-content;
   }
