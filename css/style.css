@@ -149,6 +149,7 @@ header .burger.active div:last-child {
 .section-one {
   position: relative;
   height: calc(100vh - 73px);
+  overflow-x: hidden;
 }
 .section-one svg.mobile {
   display: none;
