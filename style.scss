@@ -219,6 +219,9 @@ footer{
 // footer
 // responsive 
 @media(max-width:992px){
+    body{
+        overflow-x: hidden !important;
+    }
     header{
         min-height: 73px;
         .container{
